@@ -1,0 +1,11 @@
+.DS_Store
+.qodo/
+.vscode/
+inference_env/
+data/cifar10/
+data/cifar-10-batches-py/
+data/cifar-10-python.tar.gz
+models/distilbert_ag_news.onnx
+models/mobilenetv2_x1_0.onnx
+models/resnet20.onnx
+server/__pycache__/
