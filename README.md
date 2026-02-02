@@ -184,3 +184,7 @@ The `ModelLoader` class:
 - Caches models & tokenizers
 
 - Provides cache info and clearing utilities
+
+## Client Dependency project
+
+https://github.com/VinodLouis/browser-inference-traditional
