@@ -53,6 +53,16 @@ python model-conversion/model_gen.py
 
 This step ensures models can be exported and run efficiently in different environments. Models will be generate inside [models](./models/) folder.
 
+## 🔤 Tokenizer
+
+Generate local tokenizer to be used in browser client:
+
+```bash
+python tokenizer/generate_tokenizer.py
+```
+
+Tokenizer data will be generate inside [tokenizer/data](./tokenizer/data/) folder. Generates 4 files `special_tokens_map.json`, `tokenizer_config.json`, `tokenizer.json` and `vocab.txt`
+
 ## 🌐 Running the Server
 
 ```bash
